@@ -6,57 +6,73 @@
     <title>Portfolio</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
-    <nav>
-        <!-- Hamburger checkbox -->
-        <input type="checkbox" id="checks">
-        <label for="checks" class="checkbtn">
-            &#9776; <!-- Hamburger Icon -->
-        </label>
-        <label class="logo"> Sa<span class="sai">i</span></label>
-        <!-- Navigation menu -->
-        <ul>
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#follow">Follow Me</a></li>
-        </ul>
-    </nav>
-</header>
-
-    
-    
+        <nav>
+            <!-- Hamburger checkbox -->
+            <input type="checkbox" id="checks">
+            <label for="checks" class="checkbtn">
+                &#9776; <!-- Hamburger Icon -->
+            </label>
+            <div class="logo-l">
+                <i class="fa-solid fa-laptop"></i>
+                <label class="logo"> Sa<span class="sai">i</span></label>
+                
+            </div>
+           
+            <!-- Navigation menu -->
+            <ul class="nave-left">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#follow">Follow Me</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
         <!-- home section  -->
-        <div class="home" id="home">
-            
-            <div class="home-container">
+        <div class="home" >
+            <div class="orbit-container">
+                <div class="orbit">
+                    <div class="orbit1"></div>
+                    <div class="orbit2 orbits"></div>
+                    <div class="orbit3 orbits"></div>
+                    <div class="orbit4 orbits"></div>
+                    <div class="orbit5 orbits"></div>
+                    <div class="orbit6 orbits"></div>
+                    <div class="orbit7 orbits"></div>
+                </div>
+            </div>
+            <div class="home-container" id="home">
 
                 <div class="left">
                     <div class="name">
-                        <h1 class="my-name"> <span>I'm</span> Sai</h1>
+                        <h1 class="my-name"> <span>Hello, </span></h1>
+                        <h1 class="my-name">It's Me Sai</h1>
+                        <div class="text">
+                            <h3>I am a web <span> developer........!</h3>
+                        </span></div>
                     </div>
-                    <div class="imformation">
-                        <p>I'm a passionate developer focused on web development. 
-                            I enjoy building responsive and interactive applications that solve real-world problems.</p>
-                    </div>
+                    
                     <div class="follow-icons">
-                        <div class="set-pro1">
-                            <a href="https://www.linkedin.com/in/pamu-sai-0aa614238/" target="_blank"><i class="fa-brands fa-linkedin  one1 "></i> </a>
+                        <div class="set-icons-background-color">
+                            <a href="https://www.linkedin.com/in/pamu-sai-0aa614238/" target="_blank"><i class="fa-brands fa-linkedin  ions-color"></i> </a>
                         </div>
-                        <div class="set-pro1">
-                            <a href="https://github.com/pamusai04" target="_blank"><i class="fa-brands fa-github one1"></i> </a>
+                        <div class="set-icons-background-color">
+                            <a href="https://github.com/pamusai04" target="_blank"><i class="fa-brands fa-github ions-color"></i> </a>
                         </div>
-                        <div class="set-pro1">
-                            <a href=""></a><i class="fa-brands fa-instagram one1"></i> </a>
+                        <div class="set-icons-background-color">
+                            <a href="#"></a><i class="fa-brands fa-instagram ions-color"></i> </a>
                         </div>
-                        <div class="set-pro1">
-                            <a href="" ></a><i class="fa-solid fa-envelope one1"></i> </a>
+                        <div class="set-icons-background-color">
+                            <a href="mailto:pamusai04102003@gmail.com">
+                                <i class="fa-solid fa-envelope ions-color"></i>
+                            </a>
                         </div>
     
                     </div>
@@ -65,64 +81,161 @@
                         <button class="button1" ><a href="https://drive.google.com/file/d/1lfzw6AE2RVxiksPJPDAxD6yCLC_fTGQv/view?usp=drivesdk" target="_blank">Download Cv</a></button>
                         <button class="button2">Hire Me Now</button>
                     </div>
-
-                    
                 </div>
-
-
+            
                 <div class="right">
                     <div class="photo-section">
-                        <img src="sai_img.jpg" alt="my image....." class="image">
+                        <img src="./sai_img.jpg" alt="my image....." class="image">
                     </div>
                 </div>
-            </div>
 
+            </div>
+            
         </div>
 
-        <div class="bello-home" >
-            <!-- about me  -->
-            <div class="about" id="about">
-                <div class="about-headding">
-                    <h3>About Me</h3>
-                </div>
-                <div class="about-container">
-                    <div class="left-2">
-                        <div class="my-self-headding">
-                            <h3 >My Self</h3>
-                        </div>
-
-                        <div class="my-self-pera">
-                            <p>Hello, I am Pamu Sai, a 4th-year BTech student pursuing Computer Science
-                                and Engineering with a specialization in Data Science. I have a strong 
-                                passion for web development and hands-on experience in building dynamic
-                                web applications. I am particularly enthusiastic about MERN stack development,
-                                focusing on modern full-stack solutions using React, Node.js, Express, and MongoDB.
-
-                                I enjoy solving problems in data structures, algorithms, and C++ programming.
-                            </p>
-                        </div>
+        <!-- about me section  -->
+        
+        <div class="about" id="about">
+            
+            <div class="about-headding">
+                <h3> <span>About</span> Me</h3>
+            </div>
+            <div class="about-container">
+                <div class="left-2">
+                    <div class="my-self-headding">
+                        <h3>My Self</h3>
                     </div>
 
-                    <div class="right-2" id="skills">
-                        <div class="my-self-headding">
-                            <i class="fa-solid fa-code"></i>
-                        </div>
+                    <div class="my-self-pera">
+                        <p>Hello, I am Pamu Sai, a 4th-year BTech student pursuing Computer Science
+                            and Engineering with a specialization in Data Science. I have a strong 
+                            passion for web development and hands-on experience in building dynamic
+                            web applications. I am particularly enthusiastic about MERN stack development,
+                            focusing on modern full-stack solutions using React, Node.js, Express, and MongoDB.
 
-                        <div class="all-skills">
-                            
-                                <div class="box">HTML</div>
-                                <div class="box">CSS</div>
-                                <div class="box">React</div>
-                                <div class="box">JavaScript</div>
-                                <div class="box">Node.js</div>
-                                <div class="box">Express.js</div>
-                                <div class="box">C++</div>
-                                <div class="box">Java</div>
-                                <div class="box">MySql</div>
-                                <div class="box">MongoDB</div>
-                            
+                            I enjoy solving problems in data structures, algorithms, and C++ programming.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="right-2" id="skills">
+                    <img src="./my_self.png" alt="myself image " class="my-self" >
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- skills section -->
+
+        <div class="skills" id="skills">
+            <div class="skills-headding">
+                <i class="fa-solid fa-code"></i>
+                <h1>Skills</h1>
+            </div>
+
+            <div class="all-skills">
+                <div class="box">
+                    <img src="./html.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./css.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./js.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./express.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./nodeJs.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./react.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./nextJs.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./bootstrap.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./cpp.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./java.png" alt="">
+                </div>
+    
+            </div>
+        </div>
+               
+
+        <!-- projects section -->
+        <div class="projects" id="projects">
+            <div class="projects-headding">
+                <h3>Projects</h3>
+            </div>
+
+            <div class="projects-container">
+                <div class="box2 food">
+                    <div class="project-name">
+                        <p>Food Munch</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./food1.png" alt="food image.. " class="image2">
+                    </div>
+                    <div class="access">
+                        <a href="https://fmunch123.ccbp.tech/" class="access-link">Click here</a>
+                    </div>
+                </div>
+                <div class="box2 calculator">
+                    <div class="project-name">
+                        <p>Calculator</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./calculator.png" alt="calculator image.." class="image2">
+                    </div>
+                    <div class="access">
+                        <a href="https://saicalculatora.ccbp.tech/" class="access-link">Click here</a>
+                    </div>
+                </div>
+                <div class="box2 rock-paper">
+                    <div class="project-name">
+                        <p>Rock Paper Scissors</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./rockPaper.png" alt="rock paper scissors.." class="image2-rock">
+                    </div>
                 
+                    <div class="access">
+                        <a href="https://pamusai.ccbp.tech/" class="access-link">Click here</a>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+
+        <!-- contact me  section-->
+        <div class="contact" id="contact">
+            <div class="contact-headding">
+                <h3>Get in <span>touch</span>  </h3>
+            </div>
+
+
+            <div class="coontact-headding">
+                <div class="show-img">
+                    <img src="./mail.png" alt="mail image.." class="mail-img">
+                </div>
+                <div class="sending-information">
+                    <div class="send-data">
+                        <div class="inputs1">
+                            <input type="text" placeholder="Full Name">
+                            <input type="email" placeholder="Email Address">
                         </div>
+                        <div class="textAreas">
+                            <textarea placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit">Send <i class="fa-solid fa-paper-plane"></i></button>
                         
                     </div>
                 </div>
@@ -130,87 +243,15 @@
             </div>
 
 
-            <!-- projects  -->
-            <div class="projects" id="projects">
-                <div class="projects-headding">
-                    <h3>Projects</h3>
-                </div>
 
-                <div class="projects-container">
-                    <div class="box2 food">
-                        <div class="project-name">
-                            <p>Food Munch</p>
-                        </div>
-                        <div class="project-img">
-                            <img src="./food1.png" alt="food image.. " class="image2">
-                        </div>
-                        <div class="access">
-                            <a href="https://fmunch123.ccbp.tech/" class="access-link">Click here</a>
-                        </div>
-                    </div>
-                    <div class="box2 calculator">
-                        <div class="project-name">
-                            <p>Calculator</p>
-                        </div>
-                        <div class="project-img">
-                            <img src="./calculator.png" alt="calculator image.." class="image2">
-                        </div>
-                        <div class="access">
-                            <a href="https://saicalculatora.ccbp.tech/" class="access-link">Click here</a>
-                        </div>
-                    </div>
-                    <div class="box2 rock-paper">
-                        <div class="project-name">
-                            <p>Rock Paper Scissors</p>
-                        </div>
-                        <div class="project-img">
-                            <img src="./rockPaper.png" alt="rock paper scissors.." class="image2-rock">
-                        </div>
-                    
-                        <div class="access">
-                            <a href="https://pamusai.ccbp.tech/" class="access-link">Click here</a>
-                        </div>
-                    </div>
-                
-                </div>
-            </div>
-
-            <!-- contact me  -->
-            <div class="contact" id="contact">
-                <div class="contact-headding">
-                    <h3>Get in <span>touch</span>  </h3>
-                </div>
-
-
-                <div class="coontact-headding">
-                    <div class="show-img">
-                        <img src="./mail.png" alt="mail image.." class="mail-img">
-                    </div>
-                    <div class="sending-information">
-                        <div class="send-data">
-                            <div class="inputs1">
-                                <input type="text" placeholder="Full Name">
-                                <input type="email" placeholder="Email Address">
-                            </div>
-                            <div class="textAreas">
-                                <textarea placeholder="Your Message"></textarea>
-                            </div>
-                            <button type="submit">Submit</button>
-                        </div>
-                    </div>
-                    
-                </div>
-
-
-
-            </div>
+        </div>
 
     </div>
 
     </main>
 
     <footer>
-        <div class="footer-container " id="follow">
+        <div class="footer-container" id="follow">
             <div class="box4">
                 <div class="follow-me">
                     <h1>Follow Me</h1>
@@ -226,23 +267,32 @@
                     
                 </div>
                 <div class="follow-icons">
-                    <div class="set-pro">
+                    <div class="set-background-icons">
                         <a href="https://www.linkedin.com/in/pamu-sai-0aa614238/" target="_blank"><i class="fa-brands fa-linkedin  one "></i> </a>
                     </div>
-                    <div class="set-pro">
+                    <div class="set-background-icons">
                         <a href="https://github.com/pamusai04" target="_blank"><i class="fa-brands fa-github one"></i> </a>
                     </div>
-                    <div class="set-pro">
+                    <div class="set-background-icons">
                         <a href=""></a><i class="fa-brands fa-instagram one"></i> </a>
                     </div>
-                    <div class="set-pro">
-                        <a href="" ></a><i class="fa-solid fa-envelope one"></i> </a>
+                    <div class="set-background-icons">
+                        <a href="mailto:pamusai04102003@gmail.com">
+                            <i class="fa-solid fa-envelope one"></i>
+                        </a>
                     </div>
+                    
                     
                 </div>
             </div>
             
+        
         </div>
+        <div class="bottom-fot">
+            <hr>
+            <p style="text-align: center;"> Handcrafted by Pamu Sai...  Copyright &copy; 2024 </p>
+        </div>
+        
     </footer>
 
 
